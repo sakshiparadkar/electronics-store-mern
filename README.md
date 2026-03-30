@@ -11,12 +11,19 @@ The application allows users to browse a variety of electronic products with a c
 I also experimented with AI-based search functionality using vector search tools, making product discovery more efficient compared to traditional keyword search.
 
 ✨ Features
+
 🛍️ Product Browsing — View and explore different electronics
+
 🔍 Search Functionality — AI-powered product search
+
 🛒 Cart System — Add/remove items and manage cart
+
 💳 Secure Checkout — Integrated with Stripe payment gateway
+
 📦 Order Tracking — View orders after purchase
+
 🔐 Authentication — User login, registration, and password reset
+
 📱 Responsive UI — Works across mobile, tablet, and desktop
 
 🛠️ Tech Stack
@@ -74,10 +81,15 @@ http://localhost:3000
 
 🎯 What I Learned
 1.Building a complete full-stack application
+
 2.Managing frontend-backend communication
+
 3.Implementing authentication using JWT
+
 4.Integrating payment gateway (Stripe)
+
 5.Working with databases and APIs
+
 6.Exploring AI-based search concepts
 
 📜 Note
