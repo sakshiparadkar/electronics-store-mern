@@ -27,11 +27,15 @@ I also experimented with AI-based search functionality using vector search tools
 📱 Responsive UI — Works across mobile, tablet, and desktop
 
 🛠️ Tech Stack
-Frontend |React | React Router |Material UI (MUI)| Axios 
-Backend |Node.js |Express.js |MongoDB + MongooseJWT Authentication |BcryptjsStripe
+
+Frontend |React | React Router
+
+Backend |Node.js |Express.js |MongoDB + MongooseJWT Authentication 
+
 Additional Tools |Swagger (API documentation)| Pinecone + FAISS (for AI search implementation)
 
 📁 Folder Structure
+
 electronics-store-mern/
 ├── backend/
 ├── src/
@@ -80,6 +84,7 @@ npm start
 http://localhost:3000
 
 🎯 What I Learned
+
 1.Building a complete full-stack application
 
 2.Managing frontend-backend communication
