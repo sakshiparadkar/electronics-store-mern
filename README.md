@@ -37,27 +37,35 @@ Additional Tools |Swagger (API documentation)| Pinecone + FAISS (for AI search i
 📁 Folder Structure
 
 electronics-store-mern/
+
 ├── backend/
+
 ├── src/
+
 ├── public/
+
 └── package.json
 
 ⚙️ How to Run the Project
 
 1. Clone the Repository
+   
 git clone https://github.com/sakshiparadkar/electronics-store-mern.git
+
 cd electronics-store-mern
 
-3. Install Dependencies
+2. Install Dependencies
 
 Backend:
 
 cd backend
+
 npm install
 
 Frontend:
 
 cd ..
+
 npm install
 
 3. Setup Environment Variables
@@ -65,8 +73,11 @@ npm install
 Create a .env file inside backend/:
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_secret
+
 STRIPE_SECRET_KEY=your_key
 
 4. Run the Project
@@ -74,6 +85,7 @@ STRIPE_SECRET_KEY=your_key
 Start backend:
 
 cd backend
+
 npx nodemon index.js
 
 Start frontend (new terminal):
@@ -81,6 +93,7 @@ Start frontend (new terminal):
 npm start
 
 5. Open in Browser
+   
 http://localhost:3000
 
 🎯 What I Learned
