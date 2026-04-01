@@ -26,6 +26,8 @@ I also experimented with AI-based search functionality using vector search tools
 
 📱 Responsive UI — Works across mobile, tablet, and desktop
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Tech Stack
 
 Frontend |React | React Router
@@ -33,6 +35,8 @@ Frontend |React | React Router
 Backend |Node.js |Express.js |MongoDB + MongooseJWT Authentication 
 
 Additional Tools |Swagger (API documentation)| Pinecone + FAISS (for AI search implementation)
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Folder Structure
 
@@ -45,6 +49,8 @@ electronics-store-mern/
 ├── public/
 
 └── package.json
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ How to Run the Project
 
@@ -95,6 +101,8 @@ npm start
 5. Open in Browser
    
 http://localhost:3000
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 What I Learned
 
