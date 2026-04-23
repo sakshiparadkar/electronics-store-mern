@@ -1,34 +1,32 @@
-⚡ Swastik Electronics — MERN Stack Project
+## ⚡ Swastik Electronics — MERN Stack Project
 
 Swastik Electronics is a full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js).
 
 This project simulates a real-world online electronics store where users can explore products, add them to cart, and complete purchases securely. It was developed as part of my learning to understand how frontend and backend systems work together in a complete application.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 The application allows users to browse a variety of electronic products with a clean and responsive interface. It includes features like authentication, cart management, and online payments to give a practical understanding of real-world e-commerce workflows.
 
 I also experimented with AI-based search functionality using vector search tools, making product discovery more efficient compared to traditional keyword search.
 
-✨ Features
+## ✨ Features
 
-🛍️ Product Browsing — View and explore different electronics
+1) Product Browsing — View and explore different electronics
 
-🔍 Search Functionality — AI-powered product search
+2) Search Functionality — AI-powered product search
 
-🛒 Cart System — Add/remove items and manage cart
+3) Cart System — Add/remove items and manage cart
 
-💳 Secure Checkout — Integrated with Stripe payment gateway
+4) Secure Checkout — Integrated with Stripe payment gateway
 
-📦 Order Tracking — View orders after purchase
+5) Order Tracking — View orders after purchase
 
-🔐 Authentication — User login, registration, and password reset
+6) Authentication — User login, registration, and password reset
 
-📱 Responsive UI — Works across mobile, tablet, and desktop
+7) Responsive UI — Works across mobile, tablet, and desktop
 
-------------------------------------------------------------------------------------------------------------------------------------------
-
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend |React | React Router
 
@@ -36,9 +34,7 @@ Backend |Node.js |Express.js |MongoDB + MongooseJWT Authentication
 
 Additional Tools |Swagger (API documentation)| Pinecone + FAISS (for AI search implementation)
 
-------------------------------------------------------------------------------------------------------------------------------------------
-
-📁 Folder Structure
+## 📁 Folder Structure
 
 electronics-store-mern/
 
@@ -50,9 +46,8 @@ electronics-store-mern/
 
 └── package.json
 
----------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ How to Run the Project
+## ⚙️ How to Run the Project
 
 1. Clone the Repository
    
@@ -102,9 +97,8 @@ npm start
    
 http://localhost:3000
 
-----------------------------------------------------------------------------------------------------------------------------------------
 
-🎯 What I Learned
+## 🎯 What I Learned
 
 1.Building a complete full-stack application
 
@@ -118,7 +112,7 @@ http://localhost:3000
 
 6.Exploring AI-based search concepts
 
-📜 Note
+## 📜 Note
 
 This is a student project created for learning purposes.
 It may not be production-ready but demonstrates practical implementation of modern web development concepts.
