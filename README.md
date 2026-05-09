@@ -1,119 +1,146 @@
-## ⚡ Swastik Electronics — MERN Stack Project
+⭐ Swastik Electronics — MERN Stack E-Commerce Project
 
-Swastik Electronics is a full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js).
+## 📌 Project Overview
 
-This project simulates a real-world online electronics store where users can explore products, add them to cart, and complete purchases securely. It was developed as part of my learning to understand how frontend and backend systems work together in a complete application.
+Swastik Electronics is a full-stack e-commerce web application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
-## 🚀 Project Overview
+The project simulates a real-world online electronics store where users can browse products, manage carts, place orders, and complete secure online payments. It was developed to gain practical experience in full-stack application development, authentication systems, API integration, and e-commerce workflows.
 
-The application allows users to browse a variety of electronic products with a clean and responsive interface. It includes features like authentication, cart management, and online payments to give a practical understanding of real-world e-commerce workflows.
+This project also explores AI-powered product search using vector search technologies to improve product discovery beyond traditional keyword-based search systems.
 
-I also experimented with AI-based search functionality using vector search tools, making product discovery more efficient compared to traditional keyword search.
+## 🎓 Academic Context
 
-## ✨ Features
+This project was developed as my **First Year Master’s Field Project** during my MSc in Computer Science. The goal of the project was to gain hands-on experience in full-stack web development, real-world e-commerce workflows, authentication systems, payment integration, and AI-based search implementation.
 
-1) Product Browsing — View and explore different electronics
+##🎯 Objectives
 
-2) Search Functionality — AI-powered product search
+1.Build a complete full-stack e-commerce application
+2.Implement secure authentication and authorization
+3.Integrate online payment gateway functionality
+4.Explore AI-based product search concepts
+5.Create a responsive and user-friendly shopping experience
+6.Understand frontend-backend communication in real-world applications
 
-3) Cart System — Add/remove items and manage cart
+## ✨ Key Features
 
-4) Secure Checkout — Integrated with Stripe payment gateway
+🛒 E-Commerce Functionality
 
-5) Order Tracking — View orders after purchase
-
-6) Authentication — User login, registration, and password reset
-
-7) Responsive UI — Works across mobile, tablet, and desktop
+* Browse and explore electronic products
+* Product search and filtering
+* Add and remove items from cart
+* Secure checkout process
+  
+🔍 AI-Based Product Search
+* Intelligent product discovery system
+* Vector search implementation using Pinecone & FAISS
+* Improved search relevance compared to traditional search
+  
+🔐 Authentication System
+* User registration and login
+* JWT-based authentication
+* Password reset functionality
+* Protected user routes
+  
+💳 Payment Integration
+* Secure online payments using Stripe
+* Order confirmation workflow
+* Order history tracking
+  
+📱 Responsive User Interface
+* Mobile-friendly design
+* Optimized layouts for desktop, tablet, and mobile devices
+  
+📄 API Documentation
+* Swagger integration for API documentation and testing
 
 ## 🛠️ Tech Stack
 
-Frontend |React | React Router
+Frontend | React.js | React Router | HTML5 | CSS3 | JavaScript
+Backend | Node.js | Express.js | MongoDB | Mongoose | JWT Authentication
+Additional Tools | Stripe | Swagger | Pinecone | FAISS 
 
-Backend |Node.js |Express.js |MongoDB + MongooseJWT Authentication 
+## ⚙️ System Workflow
 
-Additional Tools |Swagger (API documentation)| Pinecone + FAISS (for AI search implementation)
+-User browses or searches products
+-Product data is fetched from MongoDB
+-Users can add products to the cart
+-Authentication validates secure access
+-Stripe handles payment processing
+-Orders are stored and tracked in the database
+-AI-based search improves product discovery experience
 
-## 📁 Folder Structure
-
+## 📂 Project Structure
+```
 electronics-store-mern/
-
+│
 ├── backend/
-
+│
 ├── src/
-
+│
 ├── public/
-
+│
 └── package.json
+```
 
-
-## ⚙️ How to Run the Project
-
-1. Clone the Repository
-   
+## 🚀 How to Run the Project
+```bash
+Clone the Repository
 git clone https://github.com/sakshiparadkar/electronics-store-mern.git
-
 cd electronics-store-mern
-
-2. Install Dependencies
-
-Backend:
-
+Install Dependencies
+Backend
 cd backend
-
 npm install
-
-Frontend:
-
+Frontend
 cd ..
-
 npm install
+Configure Environment Variables
 
-3. Setup Environment Variables
-
-Create a .env file inside backend/:
+Create a .env file inside the backend/ directory:
 
 PORT=5000
 
 MONGO_URI=your_mongodb_connection_string
 
-JWT_SECRET=your_secret
+JWT_SECRET=your_secret_key
 
-STRIPE_SECRET_KEY=your_key
-
-4. Run the Project
-
-Start backend:
-
+STRIPE_SECRET_KEY=your_stripe_secret_key
+Run the Application
+Start Backend Server
 cd backend
-
 npx nodemon index.js
+Start Frontend
 
-Start frontend (new terminal):
+Open a new terminal:
 
 npm start
+🌐 Open in Browser
+` http://localhost:3000
+```
+## 💡 Key Learnings
 
-5. Open in Browser
-   
-http://localhost:3000
+* Building complete full-stack MERN applications
+* Managing frontend-backend communication
+* Implementing JWT-based authentication
+* Integrating Stripe payment gateway
+* Working with MongoDB and REST APIs
+* Understanding AI-powered search concepts
+* Structuring scalable web applications
 
+## 🔮 Future Enhancements
 
-## 🎯 What I Learned
+* Admin dashboard for product management
+* Product reviews and ratings
+* Wishlist functionality
+* Advanced recommendation system
+* Cloud deployment and scalability improvements
+* Enhanced analytics and reporting
 
-1.Building a complete full-stack application
+## 📄 Disclaimer
 
-2.Managing frontend-backend communication
+This project was created for educational and learning purposes. While it demonstrates practical implementation of modern web development concepts, additional optimization and security improvements would be required for production deployment.
 
-3.Implementing authentication using JWT
+## 👩‍💻 Author
 
-4.Integrating payment gateway (Stripe)
-
-5.Working with databases and APIs
-
-6.Exploring AI-based search concepts
-
-## 📜 Note
-
-This is a student project created for learning purposes.
-It may not be production-ready but demonstrates practical implementation of modern web development concepts.
-
+Sakshi Paradkar
+Computer Science Student
