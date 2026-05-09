@@ -69,7 +69,7 @@ This project was developed as my **First Year Master’s Field Project** during 
 ![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/cart.png
 )
 ## checkout.png
-![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/checkout-pg.pn)
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/checkout-pg.png)
 ## live-tracking.png
 ![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/42beb04885f191782f071a4a7b4bdb3c596863ef/imgs/live-tracking.png
 )
