@@ -1,4 +1,4 @@
-⭐ Swastik Electronics — MERN Stack E-Commerce Project
+## ⭐ Swastik Electronics — MERN Stack E-Commerce Project
 
 ## 📌 Project Overview
 
@@ -12,13 +12,18 @@ This project also explores AI-powered product search using vector search technol
 
 This project was developed as my **First Year Master’s Field Project** during my MSc in Computer Science. The goal of the project was to gain hands-on experience in full-stack web development, real-world e-commerce workflows, authentication systems, payment integration, and AI-based search implementation.
 
-##🎯 Objectives
+## 🎯 Objectives
 
 1.Build a complete full-stack e-commerce application
+
 2.Implement secure authentication and authorization
+
 3.Integrate online payment gateway functionality
+
 4.Explore AI-based product search concepts
+
 5.Create a responsive and user-friendly shopping experience
+
 6.Understand frontend-backend communication in real-world applications
 
 ## ✨ Key Features
@@ -56,17 +61,25 @@ This project was developed as my **First Year Master’s Field Project** during 
 ## 🛠️ Tech Stack
 
 Frontend | React.js | React Router | HTML5 | CSS3 | JavaScript
+
 Backend | Node.js | Express.js | MongoDB | Mongoose | JWT Authentication
+
 Additional Tools | Stripe | Swagger | Pinecone | FAISS 
 
 ## ⚙️ System Workflow
 
 -User browses or searches products
+
 -Product data is fetched from MongoDB
+
 -Users can add products to the cart
+
 -Authentication validates secure access
+
 -Stripe handles payment processing
+
 -Orders are stored and tracked in the database
+
 -AI-based search improves product discovery experience
 
 ## 📂 Project Structure
@@ -83,21 +96,40 @@ electronics-store-mern/
 ```
 
 ## 🚀 How to Run the Project
+# 🚀 How to Run the Project
+
+## 1️⃣ Clone the Repository
+
 ```bash
-Clone the Repository
 git clone https://github.com/sakshiparadkar/electronics-store-mern.git
 cd electronics-store-mern
-Install Dependencies
-Backend
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+###  Backend Setup
+
+```bash
 cd backend
 npm install
-Frontend
+```
+
+###  Frontend Setup
+
+```bash
 cd ..
 npm install
-Configure Environment Variables
+```
 
-Create a .env file inside the backend/ directory:
+---
 
+## 3️⃣ Configure Environment Variables
+
+Create a `.env` file inside the `backend/` directory and add the following:
+
+```env
 PORT=5000
 
 MONGO_URI=your_mongodb_connection_string
@@ -105,18 +137,35 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
-Run the Application
-Start Backend Server
+```
+
+---
+
+## 4️⃣ Run the Application
+
+### ▶️ Start Backend Server
+
+```bash
 cd backend
 npx nodemon index.js
-Start Frontend
-
-Open a new terminal:
-
-npm start
-🌐 Open in Browser
-` http://localhost:3000
 ```
+
+### 💻 Start Frontend
+
+Open a new terminal and run:
+
+```bash
+npm start
+```
+
+---
+
+# 🌐 Open in Browser
+
+```bash
+http://localhost:3000
+```
+
 ## 💡 Key Learnings
 
 * Building complete full-stack MERN applications
