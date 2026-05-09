@@ -58,6 +58,21 @@ This project was developed as my **First Year Master’s Field Project** during 
 📄 API Documentation
 * Swagger integration for API documentation and testing
 
+## 📸 Application Screenshots
+## home.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/home.png)
+## register.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/register.png)
+## products.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/42beb04885f191782f071a4a7b4bdb3c596863ef/imgs/products_list.png)
+## cart.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/cart.png
+)
+## checkout.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/25423f7550d72a4d367943f57bbda3312a1a5fac/imgs/checkout-pg.pn)
+## live-tracking.png
+![image_alt](https://github.com/sakshiparadkar/electronics-store-mern/blob/42beb04885f191782f071a4a7b4bdb3c596863ef/imgs/live-tracking.png
+)
 ## 🛠️ Tech Stack
 
 Frontend | React.js | React Router | HTML5 | CSS3 | JavaScript
