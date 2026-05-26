@@ -12,6 +12,32 @@ This project also explores AI-powered product search using vector search technol
 
 This project was developed as my **First Year Master’s Field Project** during my MSc in Computer Science. The goal of the project was to gain hands-on experience in full-stack web development, real-world e-commerce workflows, authentication systems, payment integration, and AI-based search implementation.
 
+## 📑 Business Analysis & Documentation
+
+This repository also includes professionally prepared Business Analysis and Software Engineering documentation to simulate real-world SDLC practices.
+
+Included Deliverables
+1.Problem Statement
+2.Stakeholder Analysis
+3.AS-IS / TO-BE Analysis
+4.Feasibility Study
+5.Gap Analysis
+6.User Stories
+7.Functional & Non-Functional Requirements
+8.Risk Analysis
+9.Software Requirements Specification (SRS)
+10.System Design Report
+11.Workflow Diagrams
+12.Test Plan & UAT Report
+
+These documents were created to analyze:
+
+-User requirements and business needs
+-Workflow optimization opportunities
+-System scalability and maintainability
+-Product enhancement possibilities
+-Software testing and validation processes
+
 ## 🎯 Objectives
 
 1.Build a complete full-stack e-commerce application
